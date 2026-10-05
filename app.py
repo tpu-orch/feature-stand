@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Привет! Hello!"}
+    return {"message": "Привет! feryeryf485ty485yfu45gh45gy845!"}
 
 
 Instrumentator().instrument(app).expose(app)
